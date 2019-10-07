@@ -69,6 +69,7 @@ html,body {
 	.navigation{
 		margin: 0;
 		flex-wrap: wrap;
+		min-height: 20px;
 	}
 	.logo{
 		width: 100%;
@@ -84,8 +85,8 @@ html,body {
 		padding-top: 3%;
 		padding-right: 15px;
 		padding-bottom: 3%;
-		background: url("logo.png") 56% 50% no-repeat gray;
-		background-size: 11%;
+		background: url("logo.png") 56% 85% no-repeat gray;
+		background-size: 9%;
 		
 	}
 	.logo {
@@ -93,6 +94,7 @@ html,body {
 		position: fixed;
 	}
 	.label-img{
+		margin-top: 15px;
 		max-width: 30px;
 	}
 	
