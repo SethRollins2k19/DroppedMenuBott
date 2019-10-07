@@ -1,0 +1,121 @@
+/* CSS Document */
+html,body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	color: #323232;
+}
+.navigation ul li,li a {
+	list-style: none;
+	text-decoration: none;
+	color: #323232;
+}
+.navigation{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-height: 40px;
+	max-height: 50px;
+	background: gray;
+	
+}
+.svg-menu{
+	display: none;
+	max-width: 30px;
+}
+#menu{
+	display: none;
+}
+.nav-menu{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.menu-item{
+	margin:0;
+	display: flex;
+	justify-content: center;
+	min-width: 50px;
+	max-width: 100%;
+}
+.menu-link {
+	margin: 0;
+	padding: 15px;
+	width: 100%;
+}
+/*.menu-link:hover,.menu-item:hover*/
+.menu-link:hover{
+	color:gray;
+	background: #323232;
+}
+@media only screen and (max-width: 400px){
+	.navigation{
+		margin: 0;
+		flex-wrap: wrap;
+	}
+	.logo{
+		width: 100%;
+		text-align: center;
+	}
+	.navigation {
+		justify-content: flex-end;
+	}
+	.svg-menu{
+		display: flex;
+		
+		position: relative;
+		right: 10px;
+		bottom: 35px;
+	}
+	.label-img{
+		max-width: 30px;
+	}
+	
+	.nav-menu{
+		display: none;
+	}
+		
+	#menu:checked ~ .nav-menu{
+		display: flex;
+		flex-wrap: wrap;
+		position: relative;
+		bottom: 35px;
+		width: 100%;
+	}
+	.menu-item{
+		text-align: center;
+		width: 100%;
+	}
+	.menu-item{
+		text-align: center;
+	}
+	/*
+	.navigation .nav-menu .menu-item:not(:first-child){
+		display: none;
+	}
+	.nav-menu:hover .menu-item:not(:first-child){
+		display: flex;
+
+	}*/
+	.nav-menu{
+		padding: 0;
+		margin: 0;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.menu-item{
+		margin: 0;
+		width: 100%;
+		background: gray;
+	}
+	.menu-link{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		width: 100%;
+	}
+	
+
+}
