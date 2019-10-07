@@ -28,6 +28,7 @@ html,body {
 	display: none;
 }
 .nav-menu{
+	order: 1;
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -52,13 +53,18 @@ html,body {
 	background: #323232;
 }
 .trash {
-	height: 1900px;
+	height: auto;
+	width: 100%;
 	background: yellow;
 }
+.trash img {
+	order: 2;
+	width: 100%;
+}
+
 @media only screen and (max-width: 400px){
 	.wrapper{
-		all: inherit;
-		position: fixed;
+		
 	}
 	.navigation{
 		margin: 0;
@@ -74,7 +80,16 @@ html,body {
 	.svg-menu{
 		display: flex;
 		position: fixed;
-		right: 10px;
+		padding-left: 100%;
+		padding-top: 15px;
+		padding-right: 15px;
+		padding-bottom: 10px;
+		background: url("logo.png") 56% 55% no-repeat gray;
+		
+	}
+	.logo {
+		order: 0;
+		position: fixed;
 	}
 	.label-img{
 		max-width: 30px;
@@ -86,6 +101,8 @@ html,body {
 		
 	#menu:checked ~ .nav-menu{
 		display: flex;
+		position: fixed;
+		top:40px;
 		flex-wrap: wrap;
 		width: 100%;
 	}
@@ -111,6 +128,7 @@ html,body {
 		width: 100%;
 	}
 	.menu-item{
+		display: flex;
 		margin: 0;
 		width: 100%;
 		background: gray;
