@@ -85,8 +85,12 @@ html,body {
 		padding-top: 3%;
 		padding-right: 15px;
 		padding-bottom: 3%;
+<<<<<<< HEAD
 		background: url("logo.png") 56% 85% no-repeat gray;
 		background-size: 9%;
+=======
+		background: url("logo.png") 56% 55% no-repeat gray;
+>>>>>>> parent of 0610c0c... Update style.css
 		
 	}
 	.logo {
