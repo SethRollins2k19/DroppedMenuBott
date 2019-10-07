@@ -81,9 +81,9 @@ html,body {
 		display: flex;
 		position: fixed;
 		padding-left: 100%;
-		padding-top: 15px;
+		padding-top: 3%;
 		padding-right: 15px;
-		padding-bottom: 10px;
+		padding-bottom: 3%;
 		background: url("logo.png") 56% 55% no-repeat gray;
 		
 	}
