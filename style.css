@@ -15,7 +15,7 @@ html,body {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	min-height: 40px;
+	min-height: 20px;
 	max-height: 5%;
 	background: gray;
 	
@@ -72,6 +72,7 @@ html,body {
 		min-height: 20px;
 	}
 	.logo{
+		display: none;
 		width: 100%;
 		text-align: center;
 	}
@@ -85,12 +86,9 @@ html,body {
 		padding-top: 3%;
 		padding-right: 15px;
 		padding-bottom: 3%;
-<<<<<<< HEAD
 		background: url("logo.png") 56% 85% no-repeat gray;
 		background-size: 9%;
-=======
-		background: url("logo.png") 56% 55% no-repeat gray;
->>>>>>> parent of 0610c0c... Update style.css
+	
 		
 	}
 	.logo {
