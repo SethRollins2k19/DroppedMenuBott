@@ -51,7 +51,15 @@ html,body {
 	color:gray;
 	background: #323232;
 }
+.trash {
+	height: 1900px;
+	background: yellow;
+}
 @media only screen and (max-width: 400px){
+	.wrapper{
+		all: inherit;
+		position: fixed;
+	}
 	.navigation{
 		margin: 0;
 		flex-wrap: wrap;
