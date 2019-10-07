@@ -65,10 +65,8 @@ html,body {
 	}
 	.svg-menu{
 		display: flex;
-		
-		position: relative;
+		position: fixed;
 		right: 10px;
-		bottom: 35px;
 	}
 	.label-img{
 		max-width: 30px;
@@ -81,8 +79,6 @@ html,body {
 	#menu:checked ~ .nav-menu{
 		display: flex;
 		flex-wrap: wrap;
-		position: relative;
-		bottom: 35px;
 		width: 100%;
 	}
 	.menu-item{
