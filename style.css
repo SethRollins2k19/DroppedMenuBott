@@ -84,7 +84,8 @@ html,body {
 		padding-top: 3%;
 		padding-right: 15px;
 		padding-bottom: 3%;
-		background: url("logo.png") 56% 55% no-repeat gray;
+		background: url("logo.png") 56% 50% no-repeat gray;
+		background-size: 11%;
 		
 	}
 	.logo {
