@@ -15,7 +15,7 @@ html,body {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	min-height: 20px;
+	min-height: 40px;
 	max-height: 5%;
 	background: gray;
 	
@@ -70,6 +70,8 @@ html,body {
 		margin: 0;
 		flex-wrap: wrap;
 		min-height: 20px;
+		height: 30px;
+		max-height: 15%;
 	}
 	.logo{
 		display: none;
@@ -83,40 +85,31 @@ html,body {
 		display: flex;
 		position: fixed;
 		padding-left: 100%;
-		padding-top: 3%;
 		padding-right: 15px;
-		padding-bottom: 3%;
-		background: url("logo.png") 56% 85% no-repeat gray;
-		background-size: 9%;
-	
+		background: url("logo.png") 56% 80% no-repeat gray;
+		background-size: 14%;
+
 		
 	}
-	.logo {
-		order: 0;
-		position: fixed;
-	}
 	.label-img{
-		margin-top: 15px;
+		position: relative;
+		top: 20px;
 		max-width: 30px;
 	}
 	
 	.nav-menu{
 		display: none;
 	}
-		
 	#menu:checked ~ .nav-menu{
 		display: flex;
 		position: fixed;
-		top:40px;
+		top:75px;
 		flex-wrap: wrap;
 		width: 100%;
 	}
 	.menu-item{
 		text-align: center;
 		width: 100%;
-	}
-	.menu-item{
-		text-align: center;
 	}
 	/*
 	.navigation .nav-menu .menu-item:not(:first-child){
@@ -135,7 +128,6 @@ html,body {
 	.menu-item{
 		display: flex;
 		margin: 0;
-		width: 100%;
 		background: gray;
 	}
 	.menu-link{
