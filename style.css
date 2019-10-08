@@ -70,13 +70,18 @@ html,body {
 		margin: 0;
 		flex-wrap: wrap;
 		min-height: 20px;
-		height: 30px;
+		height: 10%;
 		max-height: 15%;
 	}
 	.logo{
-		display: none;
+		position: fixed;
 		width: 100%;
+		height: 20px;
+		background: gray;
 		text-align: center;
+	}
+	.logo img {
+		display: none;
 	}
 	.navigation {
 		justify-content: flex-end;
@@ -92,9 +97,12 @@ html,body {
 		
 	}
 	.label-img{
-		position: relative;
-		top: 5%;
-		max-width: 25px;
+		position: fixed;
+		right: 5px;
+		top:0.5%;
+		min-width: 5px;
+		width: 15px;
+		max-width: 30%;
 	}
 	
 	.nav-menu{
@@ -102,14 +110,21 @@ html,body {
 	}
 	#menu:checked ~ .nav-menu{
 		display: flex;
+		align-items: center;
 		position: fixed;
-		top: 30px;
+		top: 20px;
+		height: 100%;
 		flex-wrap: wrap;
 		width: 100%;
+		
 	}
 	.menu-item{
 		text-align: center;
 		width: 100%;
+		height: 25%;
+	}
+	.menu-link{
+		font-size: 20px;
 	}
 	/*
 	.navigation .nav-menu .menu-item:not(:first-child){
